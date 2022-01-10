@@ -1,0 +1,282 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="afdcd70a-e413-479b-97fb-f6d99d653a52" name="默认更改列表" comment="">
+      <change beforePath="$PROJECT_DIR$/../course-learning-backend/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../course-learning-backend/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../course-learning-backend/src/test/http/courseOrder_controller.http" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../course-learning-backend/src/test/http/courseTest_controller.http" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../course-learning-backend/src/test/http/post_controller.http" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../course-learning-backend/src/test/http/vip_controller.http" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../course-learning-backend/src/test/java/cn/seecoder/courselearning/Dao/CourseOrderMapperTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../course-learning-backend/src/test/java/cn/seecoder/courselearning/Dao/CourseQuestionMapperTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../course-learning-backend/src/test/java/cn/seecoder/courselearning/Dao/CourseTestMapperTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../course-learning-backend/src/test/java/cn/seecoder/courselearning/Dao/CourseTestQuestionMapperTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../course-learning-backend/src/test/java/cn/seecoder/courselearning/Dao/CourseUserTestMapperTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../course-learning-backend/src/test/java/cn/seecoder/courselearning/Dao/CourseUserTestQuestionMapperTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../course-learning-backend/src/test/java/cn/seecoder/courselearning/Dao/PostMapperTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../course-learning-backend/src/test/java/cn/seecoder/courselearning/Dao/ReplyMapperTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../course-learning-backend/src/test/java/cn/seecoder/courselearning/Dao/UserMapperTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../course-learning-backend/src/test/java/cn/seecoder/courselearning/service/coupon/CouponServiceTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../course-learning-backend/src/test/java/cn/seecoder/courselearning/service/course/CoursePostServiceTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../course-learning-backend/src/test/java/cn/seecoder/courselearning/service/course/CourseTestServiceTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../course-learning-backend/src/test/java/cn/seecoder/courselearning/service/order/CourseOrderServiceTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../course-learning-backend/src/test/java/cn/seecoder/courselearning/service/vip/VipServiceTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../course-learning-backend/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../course-learning-backend/target/classes/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../course-learning-backend/target/classes/cn/seecoder/courselearning/CourseLearningApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/../course-learning-backend/target/classes/cn/seecoder/courselearning/CourseLearningApplication.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../course-learning-backend/target/classes/cn/seecoder/courselearning/annotation/NotNull$Type.class" beforeDir="false" afterPath="$PROJECT_DIR$/../course-learning-backend/target/classes/cn/seecoder/courselearning/annotation/NotNull$Type.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../course-learning-backend/target/classes/cn/seecoder/courselearning/config/DataSourceConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/../course-learning-backend/target/classes/cn/seecoder/courselearning/config/DataSourceConfig.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../course-learning-backend/target/classes/cn/seecoder/courselearning/config/WebResourceConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/../course-learning-backend/target/classes/cn/seecoder/courselearning/config/WebResourceConfig.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../course-learning-backend/target/classes/cn/seecoder/courselearning/controller/coupon/CouponController.class" beforeDir="false" afterPath="$PROJECT_DIR$/../course-learning-backend/target/classes/cn/seecoder/courselearning/controller/coupon/CouponController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../course-learning-backend/target/classes/cn/seecoder/courselearning/controller/course/CourseController.class" beforeDir="false" afterPath="$PROJECT_DIR$/../course-learning-backend/target/classes/cn/seecoder/courselearning/controller/course/CourseController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../course-learning-backend/target/classes/cn/seecoder/courselearning/controller/course/CourseOrderController.class" beforeDir="false" afterPath="$PROJECT_DIR$/../course-learning-backend/target/classes/cn/seecoder/courselearning/controller/course/CourseOrderController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../course-learning-backend/target/classes/cn/seecoder/courselearning/controller/course/CourseTestController.class" beforeDir="false" afterPath="$PROJECT_DIR$/../course-learning-backend/target/classes/cn/seecoder/courselearning/controller/course/CourseTestController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../course-learning-backend/target/classes/cn/seecoder/courselearning/controller/course/CourseWareController.class" beforeDir="false" afterPath="$PROJECT_DIR$/../course-learning-backend/target/classes/cn/seecoder/courselearning/controller/course/CourseWareController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../course-learning-backend/target/classes/cn/seecoder/courselearning/controller/file/FileController.class" beforeDir="false" afterPath="$PROJECT_DIR$/../course-learning-backend/target/classes/cn/seecoder/courselearning/controller/file/FileController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../course-learning-backend/target/classes/cn/seecoder/courselearning/controller/post/PostController.class" beforeDir="false" afterPath="$PROJECT_DIR$/../course-learning-backend/target/classes/cn/seecoder/courselearning/controller/post/PostController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../course-learning-backend/target/classes/cn/seecoder/courselearning/controller/recharge/RechargeController.class" beforeDir="false" afterPath="$PROJECT_DIR$/../course-learning-backend/target/classes/cn/seecoder/courselearning/controller/recharge/RechargeController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../course-learning-backend/target/classes/cn/seecoder/courselearning/controller/user/UserController.class" beforeDir="false" afterPath="$PROJECT_DIR$/../course-learning-backend/target/classes/cn/seecoder/courselearning/controller/user/UserController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../course-learning-backend/target/classes/cn/seecoder/courselearning/controller/vip/VipController.class" beforeDir="false" afterPath="$PROJECT_DIR$/../course-learning-backend/target/classes/cn/seecoder/courselearning/controller/vip/VipController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../course-learning-backend/target/classes/cn/seecoder/courselearning/dto/coupon/CouponDTO.class" beforeDir="false" afterPath="$PROJECT_DIR$/../course-learning-backend/target/classes/cn/seecoder/courselearning/dto/coupon/CouponDTO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../course-learning-backend/target/classes/cn/seecoder/courselearning/dto/coupon/DeliverCouponDTO.class" beforeDir="false" afterPath="$PROJECT_DIR$/../course-learning-backend/target/classes/cn/seecoder/courselearning/dto/coupon/DeliverCouponDTO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../course-learning-backend/target/classes/cn/seecoder/courselearning/dto/course/CourseQuestionDTO.class" beforeDir="false" afterPath="$PROJECT_DIR$/../course-learning-backend/target/classes/cn/seecoder/courselearning/dto/course/CourseQuestionDTO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../course-learning-backend/target/classes/cn/seecoder/courselearning/dto/course/CourseTestDTO.class" beforeDir="false" afterPath="$PROJECT_DIR$/../course-learning-backend/target/classes/cn/seecoder/courselearning/dto/course/CourseTestDTO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../course-learning-backend/target/classes/cn/seecoder/courselearning/dto/course/CourseTestFinishDTO.class" beforeDir="false" afterPath="$PROJECT_DIR$/../course-learning-backend/target/classes/cn/seecoder/courselearning/dto/course/CourseTestFinishDTO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../course-learning-backend/target/classes/cn/seecoder/courselearning/dto/course/CourseTestQuestionAddDTO.class" beforeDir="false" afterPath="$PROJECT_DIR$/../course-learning-backend/target/classes/cn/seecoder/courselearning/dto/course/CourseTestQuestionAddDTO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../course-learning-backend/target/classes/cn/seecoder/courselearning/dto/course/CourseTestQuestionDeleteDTO.class" beforeDir="false" afterPath="$PROJECT_DIR$/../course-learning-backend/target/classes/cn/seecoder/courselearning/dto/course/CourseTestQuestionDeleteDTO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../course-learning-backend/target/classes/cn/seecoder/courselearning/dto/order/OrderRentDTO.class" beforeDir="false" afterPath="$PROJECT_DIR$/../course-learning-backend/target/classes/cn/seecoder/courselearning/dto/order/OrderRentDTO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../course-learning-backend/target/classes/cn/seecoder/courselearning/dto/order/OrderSchoolbagDTO.class" beforeDir="false" afterPath="$PROJECT_DIR$/../course-learning-backend/target/classes/cn/seecoder/courselearning/dto/order/OrderSchoolbagDTO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../course-learning-backend/target/classes/cn/seecoder/courselearning/dto/post/PostDTO.class" beforeDir="false" afterPath="$PROJECT_DIR$/../course-learning-backend/target/classes/cn/seecoder/courselearning/dto/post/PostDTO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../course-learning-backend/target/classes/cn/seecoder/courselearning/dto/post/ReplyDTO.class" beforeDir="false" afterPath="$PROJECT_DIR$/../course-learning-backend/target/classes/cn/seecoder/courselearning/dto/post/ReplyDTO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../course-learning-backend/target/classes/cn/seecoder/courselearning/dto/vip/VipChargeDTO.class" beforeDir="false" afterPath="$PROJECT_DIR$/../course-learning-backend/target/classes/cn/seecoder/courselearning/dto/vip/VipChargeDTO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../course-learning-backend/target/classes/cn/seecoder/courselearning/enums/CouponDeliver$ApplicationContextInjector.class" beforeDir="false" afterPath="$PROJECT_DIR$/../course-learning-backend/target/classes/cn/seecoder/courselearning/enums/CouponDeliver$ApplicationContextInjector.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../course-learning-backend/target/classes/cn/seecoder/courselearning/enums/CouponDeliver.class" beforeDir="false" afterPath="$PROJECT_DIR$/../course-learning-backend/target/classes/cn/seecoder/courselearning/enums/CouponDeliver.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../course-learning-backend/target/classes/cn/seecoder/courselearning/enums/CouponScope.class" beforeDir="false" afterPath="$PROJECT_DIR$/../course-learning-backend/target/classes/cn/seecoder/courselearning/enums/CouponScope.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../course-learning-backend/target/classes/cn/seecoder/courselearning/enums/CouponType$ApplicationContextInjector.class" beforeDir="false" afterPath="$PROJECT_DIR$/../course-learning-backend/target/classes/cn/seecoder/courselearning/enums/CouponType$ApplicationContextInjector.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../course-learning-backend/target/classes/cn/seecoder/courselearning/enums/CouponType.class" beforeDir="false" afterPath="$PROJECT_DIR$/../course-learning-backend/target/classes/cn/seecoder/courselearning/enums/CouponType.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../course-learning-backend/target/classes/cn/seecoder/courselearning/enums/ExceptionType.class" beforeDir="false" afterPath="$PROJECT_DIR$/../course-learning-backend/target/classes/cn/seecoder/courselearning/enums/ExceptionType.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../course-learning-backend/target/classes/cn/seecoder/courselearning/enums/HttpStatus.class" beforeDir="false" afterPath="$PROJECT_DIR$/../course-learning-backend/target/classes/cn/seecoder/courselearning/enums/HttpStatus.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../course-learning-backend/target/classes/cn/seecoder/courselearning/enums/PurchaseType.class" beforeDir="false" afterPath="$PROJECT_DIR$/../course-learning-backend/target/classes/cn/seecoder/courselearning/enums/PurchaseType.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../course-learning-backend/target/classes/cn/seecoder/courselearning/enums/QuestionType.class" beforeDir="false" afterPath="$PROJECT_DIR$/../course-learning-backend/target/classes/cn/seecoder/courselearning/enums/QuestionType.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../course-learning-backend/target/classes/cn/seecoder/courselearning/enums/TestStatus.class" beforeDir="false" afterPath="$PROJECT_DIR$/../course-learning-backend/target/classes/cn/seecoder/courselearning/enums/TestStatus.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../course-learning-backend/target/classes/cn/seecoder/courselearning/enums/UserRole.class" beforeDir="false" afterPath="$PROJECT_DIR$/../course-learning-backend/target/classes/cn/seecoder/courselearning/enums/UserRole.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../course-learning-backend/target/classes/cn/seecoder/courselearning/exception/MyException.class" beforeDir="false" afterPath="$PROJECT_DIR$/../course-learning-backend/target/classes/cn/seecoder/courselearning/exception/MyException.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../course-learning-backend/target/classes/cn/seecoder/courselearning/mapperservice/coupon/CouponMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/../course-learning-backend/target/classes/cn/seecoder/courselearning/mapperservice/coupon/CouponMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../course-learning-backend/target/classes/cn/seecoder/courselearning/mapperservice/coupon/CourseOrderCouponMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/../course-learning-backend/target/classes/cn/seecoder/courselearning/mapperservice/coupon/CourseOrderCouponMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../course-learning-backend/target/classes/cn/seecoder/courselearning/mapperservice/coupon/UserCouponMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/../course-learning-backend/target/classes/cn/seecoder/courselearning/mapperservice/coupon/UserCouponMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../course-learning-backend/target/classes/cn/seecoder/courselearning/mapperservice/coupon/mapperStub/CouponMapperImplStub.class" beforeDir="false" afterPath="$PROJECT_DIR$/../course-learning-backend/target/classes/cn/seecoder/courselearning/mapperservice/coupon/mapperStub/CouponMapperImplStub.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../course-learning-backend/target/classes/cn/seecoder/courselearning/mapperservice/course/CourseLikesMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/../course-learning-backend/target/classes/cn/seecoder/courselearning/mapperservice/course/CourseLikesMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../course-learning-backend/target/classes/cn/seecoder/courselearning/mapperservice/course/CourseMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/../course-learning-backend/target/classes/cn/seecoder/courselearning/mapperservice/course/CourseMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../course-learning-backend/target/classes/cn/seecoder/courselearning/mapperservice/course/CourseWareMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/../course-learning-backend/target/classes/cn/seecoder/courselearning/mapperservice/course/CourseWareMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../course-learning-backend/target/classes/cn/seecoder/courselearning/mapperservice/course/mapperStub/CourseMapperImplStub.class" beforeDir="false" afterPath="$PROJECT_DIR$/../course-learning-backend/target/classes/cn/seecoder/courselearning/mapperservice/course/mapperStub/CourseMapperImplStub.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../course-learning-backend/target/classes/cn/seecoder/courselearning/mapperservice/course/test/CourseQuestionMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/../course-learning-backend/target/classes/cn/seecoder/courselearning/mapperservice/course/test/CourseQuestionMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../course-learning-backend/target/classes/cn/seecoder/courselearning/mapperservice/course/test/CourseTestMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/../course-learning-backend/target/classes/cn/seecoder/courselearning/mapperservice/course/test/CourseTestMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../course-learning-backend/target/classes/cn/seecoder/courselearning/mapperservice/course/test/CourseTestQuestionMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/../course-learning-backend/target/classes/cn/seecoder/courselearning/mapperservice/course/test/CourseTestQuestionMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../course-learning-backend/target/classes/cn/seecoder/courselearning/mapperservice/course/test/CourseUserTestMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/../course-learning-backend/target/classes/cn/seecoder/courselearning/mapperservice/course/test/CourseUserTestMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../course-learning-backend/target/classes/cn/seecoder/courselearning/mapperservice/course/test/CourseUserTestQuestionMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/../course-learning-backend/target/classes/cn/seecoder/courselearning/mapperservice/course/test/CourseUserTestQuestionMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../course-learning-backend/target/classes/cn/seecoder/courselearning/mapperservice/course/test/mapperStub/CourseQuestionMapperImplStub.class" beforeDir="false" afterPath="$PROJECT_DIR$/../course-learning-backend/target/classes/cn/seecoder/courselearning/mapperservice/course/test/mapperStub/CourseQuestionMapperImplStub.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../course-learning-backend/target/classes/cn/seecoder/courselearning/mapperservice/course/test/mapperStub/CourseTestMapperImplStub.class" beforeDir="false" afterPath="$PROJECT_DIR$/../course-learning-backend/target/classes/cn/seecoder/courselearning/mapperservice/course/test/mapperStub/CourseTestMapperImplStub.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../course-learning-backend/target/classes/cn/seecoder/courselearning/mapperservice/course/test/mapperStub/CourseUserTestMapperImplStub.class" beforeDir="false" afterPath="$PROJECT_DIR$/../course-learning-backend/target/classes/cn/seecoder/courselearning/mapperservice/course/test/mapperStub/CourseUserTestMapperImplStub.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../course-learning-backend/target/classes/cn/seecoder/courselearning/mapperservice/course/test/mapperStub/CourseUserTestQuestionMapperImplStub.class" beforeDir="false" afterPath="$PROJECT_DIR$/../course-learning-backend/target/classes/cn/seecoder/courselearning/mapperservice/course/test/mapperStub/CourseUserTestQuestionMapperImplStub.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../course-learning-backend/target/classes/cn/seecoder/courselearning/mapperservice/order/CourseOrderMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/../course-learning-backend/target/classes/cn/seecoder/courselearning/mapperservice/order/CourseOrderMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../course-learning-backend/target/classes/cn/seecoder/courselearning/mapperservice/order/RechargeOrderMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/../course-learning-backend/target/classes/cn/seecoder/courselearning/mapperservice/order/RechargeOrderMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../course-learning-backend/target/classes/cn/seecoder/courselearning/mapperservice/order/mapperStub/CourseOrderImplStub.class" beforeDir="false" afterPath="$PROJECT_DIR$/../course-learning-backend/target/classes/cn/seecoder/courselearning/mapperservice/order/mapperStub/CourseOrderImplStub.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../course-learning-backend/target/classes/cn/seecoder/courselearning/mapperservice/post/PostMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/../course-learning-backend/target/classes/cn/seecoder/courselearning/mapperservice/post/PostMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../course-learning-backend/target/classes/cn/seecoder/courselearning/mapperservice/post/PostMapperImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/../course-learning-backend/target/classes/cn/seecoder/courselearning/mapperservice/post/PostMapperImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../course-learning-backend/target/classes/cn/seecoder/courselearning/mapperservice/post/ReplyMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/../course-learning-backend/target/classes/cn/seecoder/courselearning/mapperservice/post/ReplyMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../course-learning-backend/target/classes/cn/seecoder/courselearning/mapperservice/post/ReplyMapperImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/../course-learning-backend/target/classes/cn/seecoder/courselearning/mapperservice/post/ReplyMapperImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../course-learning-backend/target/classes/cn/seecoder/courselearning/mapperservice/user/UserMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/../course-learning-backend/target/classes/cn/seecoder/courselearning/mapperservice/user/UserMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../course-learning-backend/target/classes/cn/seecoder/courselearning/mapperservice/user/mapperStub/UserMapperImplStub.class" beforeDir="false" afterPath="$PROJECT_DIR$/../course-learning-backend/target/classes/cn/seecoder/courselearning/mapperservice/user/mapperStub/UserMapperImplStub.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../course-learning-backend/target/classes/cn/seecoder/courselearning/po/coupon/Coupon.class" beforeDir="false" afterPath="$PROJECT_DIR$/../course-learning-backend/target/classes/cn/seecoder/courselearning/po/coupon/Coupon.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../course-learning-backend/target/classes/cn/seecoder/courselearning/po/coupon/CourseOrderCoupon.class" beforeDir="false" afterPath="$PROJECT_DIR$/../course-learning-backend/target/classes/cn/seecoder/courselearning/po/coupon/CourseOrderCoupon.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../course-learning-backend/target/classes/cn/seecoder/courselearning/po/coupon/UserCoupon.class" beforeDir="false" afterPath="$PROJECT_DIR$/../course-learning-backend/target/classes/cn/seecoder/courselearning/po/coupon/UserCoupon.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../course-learning-backend/target/classes/cn/seecoder/courselearning/po/course/Course.class" beforeDir="false" afterPath="$PROJECT_DIR$/../course-learning-backend/target/classes/cn/seecoder/courselearning/po/course/Course.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../course-learning-backend/target/classes/cn/seecoder/courselearning/po/course/CourseWare.class" beforeDir="false" afterPath="$PROJECT_DIR$/../course-learning-backend/target/classes/cn/seecoder/courselearning/po/course/CourseWare.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../course-learning-backend/target/classes/cn/seecoder/courselearning/po/course/test/CourseQuestionPO.class" beforeDir="false" afterPath="$PROJECT_DIR$/../course-learning-backend/target/classes/cn/seecoder/courselearning/po/course/test/CourseQuestionPO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../course-learning-backend/target/classes/cn/seecoder/courselearning/po/course/test/CourseTestPO.class" beforeDir="false" afterPath="$PROJECT_DIR$/../course-learning-backend/target/classes/cn/seecoder/courselearning/po/course/test/CourseTestPO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../course-learning-backend/target/classes/cn/seecoder/courselearning/po/course/test/CourseTestQuestionPO.class" beforeDir="false" afterPath="$PROJECT_DIR$/../course-learning-backend/target/classes/cn/seecoder/courselearning/po/course/test/CourseTestQuestionPO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../course-learning-backend/target/classes/cn/seecoder/courselearning/po/course/test/CourseUserTestPO.class" beforeDir="false" afterPath="$PROJECT_DIR$/../course-learning-backend/target/classes/cn/seecoder/courselearning/po/course/test/CourseUserTestPO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../course-learning-backend/target/classes/cn/seecoder/courselearning/po/course/test/CourseUserTestQuestionPO.class" beforeDir="false" afterPath="$PROJECT_DIR$/../course-learning-backend/target/classes/cn/seecoder/courselearning/po/course/test/CourseUserTestQuestionPO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../course-learning-backend/target/classes/cn/seecoder/courselearning/po/order/CourseOrder.class" beforeDir="false" afterPath="$PROJECT_DIR$/../course-learning-backend/target/classes/cn/seecoder/courselearning/po/order/CourseOrder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../course-learning-backend/target/classes/cn/seecoder/courselearning/po/order/RechargeOrder.class" beforeDir="false" afterPath="$PROJECT_DIR$/../course-learning-backend/target/classes/cn/seecoder/courselearning/po/order/RechargeOrder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../course-learning-backend/target/classes/cn/seecoder/courselearning/po/order/SchoolbagOrder.class" beforeDir="false" afterPath="$PROJECT_DIR$/../course-learning-backend/target/classes/cn/seecoder/courselearning/po/order/SchoolbagOrder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../course-learning-backend/target/classes/cn/seecoder/courselearning/po/post/PostPO.class" beforeDir="false" afterPath="$PROJECT_DIR$/../course-learning-backend/target/classes/cn/seecoder/courselearning/po/post/PostPO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../course-learning-backend/target/classes/cn/seecoder/courselearning/po/post/ReplyPO.class" beforeDir="false" afterPath="$PROJECT_DIR$/../course-learning-backend/target/classes/cn/seecoder/courselearning/po/post/ReplyPO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../course-learning-backend/target/classes/cn/seecoder/courselearning/po/user/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/../course-learning-backend/target/classes/cn/seecoder/courselearning/po/user/User.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../course-learning-backend/target/classes/cn/seecoder/courselearning/service/coupon/CouponService.class" beforeDir="false" afterPath="$PROJECT_DIR$/../course-learning-backend/target/classes/cn/seecoder/courselearning/service/coupon/CouponService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../course-learning-backend/target/classes/cn/seecoder/courselearning/service/coupon/coupondeliverstrategy/CouponDeliverStrategy.class" beforeDir="false" afterPath="$PROJECT_DIR$/../course-learning-backend/target/classes/cn/seecoder/courselearning/service/coupon/coupondeliverstrategy/CouponDeliverStrategy.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../course-learning-backend/target/classes/cn/seecoder/courselearning/service/coupon/couponstrategy/CouponStrategy.class" beforeDir="false" afterPath="$PROJECT_DIR$/../course-learning-backend/target/classes/cn/seecoder/courselearning/service/coupon/couponstrategy/CouponStrategy.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../course-learning-backend/target/classes/cn/seecoder/courselearning/service/course/CourseService.class" beforeDir="false" afterPath="$PROJECT_DIR$/../course-learning-backend/target/classes/cn/seecoder/courselearning/service/course/CourseService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../course-learning-backend/target/classes/cn/seecoder/courselearning/service/course/CourseTestService.class" beforeDir="false" afterPath="$PROJECT_DIR$/../course-learning-backend/target/classes/cn/seecoder/courselearning/service/course/CourseTestService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../course-learning-backend/target/classes/cn/seecoder/courselearning/service/course/CourseWareService.class" beforeDir="false" afterPath="$PROJECT_DIR$/../course-learning-backend/target/classes/cn/seecoder/courselearning/service/course/CourseWareService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../course-learning-backend/target/classes/cn/seecoder/courselearning/service/file/FileService.class" beforeDir="false" afterPath="$PROJECT_DIR$/../course-learning-backend/target/classes/cn/seecoder/courselearning/service/file/FileService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../course-learning-backend/target/classes/cn/seecoder/courselearning/service/order/CourseOrderService.class" beforeDir="false" afterPath="$PROJECT_DIR$/../course-learning-backend/target/classes/cn/seecoder/courselearning/service/order/CourseOrderService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../course-learning-backend/target/classes/cn/seecoder/courselearning/service/order/QueryOrderService.class" beforeDir="false" afterPath="$PROJECT_DIR$/../course-learning-backend/target/classes/cn/seecoder/courselearning/service/order/QueryOrderService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../course-learning-backend/target/classes/cn/seecoder/courselearning/service/order/RechargeService.class" beforeDir="false" afterPath="$PROJECT_DIR$/../course-learning-backend/target/classes/cn/seecoder/courselearning/service/order/RechargeService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../course-learning-backend/target/classes/cn/seecoder/courselearning/service/post/PostService.class" beforeDir="false" afterPath="$PROJECT_DIR$/../course-learning-backend/target/classes/cn/seecoder/courselearning/service/post/PostService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../course-learning-backend/target/classes/cn/seecoder/courselearning/service/user/UserService.class" beforeDir="false" afterPath="$PROJECT_DIR$/../course-learning-backend/target/classes/cn/seecoder/courselearning/service/user/UserService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../course-learning-backend/target/classes/cn/seecoder/courselearning/service/vip/VipService.class" beforeDir="false" afterPath="$PROJECT_DIR$/../course-learning-backend/target/classes/cn/seecoder/courselearning/service/vip/VipService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../course-learning-backend/target/classes/cn/seecoder/courselearning/serviceimpl/coupon/CouponServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/../course-learning-backend/target/classes/cn/seecoder/courselearning/serviceimpl/coupon/CouponServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../course-learning-backend/target/classes/cn/seecoder/courselearning/serviceimpl/coupon/coupondeliverstrategy/AllUserDeliverStrategy.class" beforeDir="false" afterPath="$PROJECT_DIR$/../course-learning-backend/target/classes/cn/seecoder/courselearning/serviceimpl/coupon/coupondeliverstrategy/AllUserDeliverStrategy.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../course-learning-backend/target/classes/cn/seecoder/courselearning/serviceimpl/coupon/coupondeliverstrategy/CourseLikeDeliverStrategy.class" beforeDir="false" afterPath="$PROJECT_DIR$/../course-learning-backend/target/classes/cn/seecoder/courselearning/serviceimpl/coupon/coupondeliverstrategy/CourseLikeDeliverStrategy.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../course-learning-backend/target/classes/cn/seecoder/courselearning/serviceimpl/coupon/coupondeliverstrategy/SingleUserDeliverStrategy.class" beforeDir="false" afterPath="$PROJECT_DIR$/../course-learning-backend/target/classes/cn/seecoder/courselearning/serviceimpl/coupon/coupondeliverstrategy/SingleUserDeliverStrategy.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../course-learning-backend/target/classes/cn/seecoder/courselearning/serviceimpl/coupon/couponstrategy/AbstractCouponStrategy.class" beforeDir="false" afterPath="$PROJECT_DIR$/../course-learning-backend/target/classes/cn/seecoder/courselearning/serviceimpl/coupon/couponstrategy/AbstractCouponStrategy.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../course-learning-backend/target/classes/cn/seecoder/courselearning/serviceimpl/coupon/couponstrategy/CutDownCouponStrategy.class" beforeDir="false" afterPath="$PROJECT_DIR$/../course-learning-backend/target/classes/cn/seecoder/courselearning/serviceimpl/coupon/couponstrategy/CutDownCouponStrategy.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../course-learning-backend/target/classes/cn/seecoder/courselearning/serviceimpl/coupon/couponstrategy/DiscountCouponStrategy.class" beforeDir="false" afterPath="$PROJECT_DIR$/../course-learning-backend/target/classes/cn/seecoder/courselearning/serviceimpl/coupon/couponstrategy/DiscountCouponStrategy.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../course-learning-backend/target/classes/cn/seecoder/courselearning/serviceimpl/course/CourseServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/../course-learning-backend/target/classes/cn/seecoder/courselearning/serviceimpl/course/CourseServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../course-learning-backend/target/classes/cn/seecoder/courselearning/serviceimpl/course/CourseTestServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/../course-learning-backend/target/classes/cn/seecoder/courselearning/serviceimpl/course/CourseTestServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../course-learning-backend/target/classes/cn/seecoder/courselearning/serviceimpl/course/CourseWareServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/../course-learning-backend/target/classes/cn/seecoder/courselearning/serviceimpl/course/CourseWareServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../course-learning-backend/target/classes/cn/seecoder/courselearning/serviceimpl/file/FileServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/../course-learning-backend/target/classes/cn/seecoder/courselearning/serviceimpl/file/FileServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../course-learning-backend/target/classes/cn/seecoder/courselearning/serviceimpl/order/RechargeServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/../course-learning-backend/target/classes/cn/seecoder/courselearning/serviceimpl/order/RechargeServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../course-learning-backend/target/classes/cn/seecoder/courselearning/serviceimpl/order/rentStrategy/RentStrategy.class" beforeDir="false" afterPath="$PROJECT_DIR$/../course-learning-backend/target/classes/cn/seecoder/courselearning/serviceimpl/order/rentStrategy/RentStrategy.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../course-learning-backend/target/classes/cn/seecoder/courselearning/serviceimpl/user/UserServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/../course-learning-backend/target/classes/cn/seecoder/courselearning/serviceimpl/user/UserServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../course-learning-backend/target/classes/cn/seecoder/courselearning/serviceimpl/vip/SimpleVipFactory.class" beforeDir="false" afterPath="$PROJECT_DIR$/../course-learning-backend/target/classes/cn/seecoder/courselearning/serviceimpl/vip/SimpleVipFactory.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../course-learning-backend/target/classes/cn/seecoder/courselearning/serviceimpl/vip/VipServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/../course-learning-backend/target/classes/cn/seecoder/courselearning/serviceimpl/vip/VipServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../course-learning-backend/target/classes/cn/seecoder/courselearning/util/CouponValidator.class" beforeDir="false" afterPath="$PROJECT_DIR$/../course-learning-backend/target/classes/cn/seecoder/courselearning/util/CouponValidator.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../course-learning-backend/target/classes/cn/seecoder/courselearning/util/DateUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/../course-learning-backend/target/classes/cn/seecoder/courselearning/util/DateUtil.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../course-learning-backend/target/classes/cn/seecoder/courselearning/util/FileHelper.class" beforeDir="false" afterPath="$PROJECT_DIR$/../course-learning-backend/target/classes/cn/seecoder/courselearning/util/FileHelper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../course-learning-backend/target/classes/cn/seecoder/courselearning/util/HandlePageInfo.class" beforeDir="false" afterPath="$PROJECT_DIR$/../course-learning-backend/target/classes/cn/seecoder/courselearning/util/HandlePageInfo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../course-learning-backend/target/classes/cn/seecoder/courselearning/util/IntHolder.class" beforeDir="false" afterPath="$PROJECT_DIR$/../course-learning-backend/target/classes/cn/seecoder/courselearning/util/IntHolder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../course-learning-backend/target/classes/cn/seecoder/courselearning/util/JSONHelper.class" beforeDir="false" afterPath="$PROJECT_DIR$/../course-learning-backend/target/classes/cn/seecoder/courselearning/util/JSONHelper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../course-learning-backend/target/classes/cn/seecoder/courselearning/util/MyBatisGeneratorUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/../course-learning-backend/target/classes/cn/seecoder/courselearning/util/MyBatisGeneratorUtil.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../course-learning-backend/target/classes/cn/seecoder/courselearning/util/PageInfoUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/../course-learning-backend/target/classes/cn/seecoder/courselearning/util/PageInfoUtil.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../course-learning-backend/target/classes/cn/seecoder/courselearning/vo/ResultVO.class" beforeDir="false" afterPath="$PROJECT_DIR$/../course-learning-backend/target/classes/cn/seecoder/courselearning/vo/ResultVO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../course-learning-backend/target/classes/cn/seecoder/courselearning/vo/coupon/CouponVO.class" beforeDir="false" afterPath="$PROJECT_DIR$/../course-learning-backend/target/classes/cn/seecoder/courselearning/vo/coupon/CouponVO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../course-learning-backend/target/classes/cn/seecoder/courselearning/vo/course/CourseWareVO.class" beforeDir="false" afterPath="$PROJECT_DIR$/../course-learning-backend/target/classes/cn/seecoder/courselearning/vo/course/CourseWareVO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../course-learning-backend/target/classes/cn/seecoder/courselearning/vo/course/test/CourseQuestionVO.class" beforeDir="false" afterPath="$PROJECT_DIR$/../course-learning-backend/target/classes/cn/seecoder/courselearning/vo/course/test/CourseQuestionVO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../course-learning-backend/target/classes/cn/seecoder/courselearning/vo/course/test/CourseTestFinishVO.class" beforeDir="false" afterPath="$PROJECT_DIR$/../course-learning-backend/target/classes/cn/seecoder/courselearning/vo/course/test/CourseTestFinishVO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../course-learning-backend/target/classes/cn/seecoder/courselearning/vo/file/FileInfoVO.class" beforeDir="false" afterPath="$PROJECT_DIR$/../course-learning-backend/target/classes/cn/seecoder/courselearning/vo/file/FileInfoVO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../course-learning-backend/target/classes/cn/seecoder/courselearning/vo/order/RechargeOrderVO.class" beforeDir="false" afterPath="$PROJECT_DIR$/../course-learning-backend/target/classes/cn/seecoder/courselearning/vo/order/RechargeOrderVO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../course-learning-backend/target/classes/cn/seecoder/courselearning/vo/user/UserFormVO.class" beforeDir="false" afterPath="$PROJECT_DIR$/../course-learning-backend/target/classes/cn/seecoder/courselearning/vo/user/UserFormVO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../course-learning-backend/target/classes/cn/seecoder/courselearning/vo/vip/VipInfoVO.class" beforeDir="false" afterPath="$PROJECT_DIR$/../course-learning-backend/target/classes/cn/seecoder/courselearning/vo/vip/VipInfoVO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../course-learning-backend/target/test-classes/cn/seecoder/courselearning/Dao/CourseOrderMapperTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../course-learning-backend/target/test-classes/cn/seecoder/courselearning/Dao/CourseQuestionMapperTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../course-learning-backend/target/test-classes/cn/seecoder/courselearning/Dao/CourseTestMapperTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../course-learning-backend/target/test-classes/cn/seecoder/courselearning/Dao/CourseTestQuestionMapperTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../course-learning-backend/target/test-classes/cn/seecoder/courselearning/Dao/CourseUserTestMapperTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../course-learning-backend/target/test-classes/cn/seecoder/courselearning/Dao/CourseUserTestQuestionMapperTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../course-learning-backend/target/test-classes/cn/seecoder/courselearning/Dao/PostMapperTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../course-learning-backend/target/test-classes/cn/seecoder/courselearning/Dao/ReplyMapperTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../course-learning-backend/target/test-classes/cn/seecoder/courselearning/Dao/UserMapperTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../course-learning-backend/target/test-classes/cn/seecoder/courselearning/service/coupon/CouponServiceTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../course-learning-backend/target/test-classes/cn/seecoder/courselearning/service/course/CoursePostServiceTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../course-learning-backend/target/test-classes/cn/seecoder/courselearning/service/course/CourseTestServiceTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../course-learning-backend/target/test-classes/cn/seecoder/courselearning/service/order/CourseOrderServiceTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../course-learning-backend/target/test-classes/cn/seecoder/courselearning/service/vip/VipServiceTest.class" beforeDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../course-learning-backend" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="/Library/apache-maven-3.6.3/conf/repository" />
+        <option name="mavenHome" value="/Library/apache-maven-3.6.3" />
+        <option name="userSettingsFile" value="/Library/apache-maven-3.6.3/conf/settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="MavenRunner">
+    <option name="jreName" value="1.8" />
+  </component>
+  <component name="ProjectId" id="1v7dCazL6HP774DLcinKdP0jkF1" />
+  <component name="PropertiesComponent">
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="project.structure.last.edited" value="模块" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.runner" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="CourseLearningApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="courselearning" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="cn.seecoder.courselearning.CourseLearningApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="afdcd70a-e413-479b-97fb-f6d99d653a52" name="默认更改列表" comment="" />
+      <created>1625916934232</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1625916934232</updated>
+      <workItem from="1625916935484" duration="8754000" />
+      <workItem from="1625937186140" duration="252000" />
+      <workItem from="1625939656439" duration="159000" />
+      <workItem from="1625939889401" duration="494000" />
+      <workItem from="1625941820413" duration="2181000" />
+      <workItem from="1625944556438" duration="91000" />
+      <workItem from="1625944734291" duration="38000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="1">
+          <value>
+            <State>
+              <option name="SHOW_ONLY_AFFECTED_CHANGES" value="true" />
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="HEAD" />
+                      </list>
+                    </value>
+                  </entry>
+                  <entry key="roots">
+                    <value>
+                      <list>
+                        <option value="$PROJECT_DIR$/../course-learning-backend" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
