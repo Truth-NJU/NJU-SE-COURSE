@@ -1,0 +1,3 @@
+/Users/taozehua/Downloads/大三上学习资料/操作系统/lab/lab2/code/main_code/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/Users/taozehua/Downloads/大三上学习资料/操作系统/lab/lab2/code/main_code/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/taozehua/Downloads/大三上学习资料/操作系统/lab/lab2/code/main_code/cmake-build-debug/CMakeFiles/main_code.dir

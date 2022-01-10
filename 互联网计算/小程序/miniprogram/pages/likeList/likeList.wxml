@@ -1,0 +1,11 @@
+<!--pages/likeList/likeList.wxml-->
+
+<view wx:for="{{news}}">
+<!--<view>{{item.title}}</view>-->
+<van-card title="{{item.title}}" thumb="{{item.img[0].src}}"
+ desc="{{item.source}}" tag="{{item.category}}" thumb-link="{{'../newsDetail/newsDetail?newsId='+item.docid}}" bindtap="goToNews" data-newsid="{{item.docid}}" >
+ <view slot="price-top" >{{item.ptime}}</view>
+
+</van-card>
+
+</view>

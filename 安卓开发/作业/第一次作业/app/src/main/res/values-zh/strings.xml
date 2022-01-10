@@ -1,0 +1,38 @@
+<resources>
+    <string name="app_name">极简相册</string>
+    <string name="email">邮箱</string>
+    <string name="password">密码</string>
+    <string name="sign_in">登录</string>
+    <string name="password_hint">请输入你的密码</string>
+    <string name="eamil_hint">请输入你的邮箱</string>
+    <string name="forget_password">忘记密码？</string>
+    <string name="no_account">没有账户？</string>
+    <string name="sign_up">注册</string>
+    <string name="sign_in_google">使用Google登录</string>
+    <string name="album">极简相册</string>
+    <string name="login_username">姓名</string>
+    <string name="login_username_hint">请输入你的名字</string>
+    <string name="login_userage_hint">请输入你的年龄</string>
+    <string name="login_gender_male">男</string>
+    <string name="login_gender_female">女</string>
+    <string name="login_useraddress">地址</string>
+    <string name="login_useraddress_hint">请输入你的地址</string>
+    <string name="login_agree_licence">我同意用户使用手册</string>
+    <string name="login_cancel">取消</string>
+    <string name="login_conform">确认</string>
+    <string name="login_userage">年龄</string>
+    <string name="login_usergender">性别</string>
+    <string name="previous">上一张</string>
+    <string name="next">下一张</string>
+    <string name="signup_fail_not_agree">注册失败，请先同意用户守则</string>
+    <string name="signup_fail_data_invalid">"输入了非法数据，注册失败"</string>
+    <string name="signup_success">注册成功</string>
+    <string name="first_img">已经是第一张图片了</string>
+    <string name="last_img">已经是最后一张图片了</string>
+    <string name="sign_in_success">登录成功</string>
+    <string name="sign_in_fail">登录失败</string>
+
+    <string name="forget_pass_no_user">此用户未注册！</string>
+    <string name="forget_pass_name_not_match">用户名不匹配！</string>
+    <string name="forget_pass_result">你的密码是：</string>
+</resources>

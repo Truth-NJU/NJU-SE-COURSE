@@ -1,0 +1,28 @@
+/* pages/news/news.wxss */
+.news {
+  height: 170rpx;
+  display: flex;
+  padding: 10px;
+  border-bottom:1px solid #ccc ;
+  font-weight:bold;
+}
+
+.news-img{
+  width: 200rpx ;
+  height: 170rpx;
+  margin-right: 20rpx;
+}
+.news-info{
+  flex: 1;
+  position: relative;
+
+}
+.title{
+ 
+}
+.time{
+  color: #666;
+  font-size: 25rpx;
+  position: absolute;
+ bottom: 0;
+}

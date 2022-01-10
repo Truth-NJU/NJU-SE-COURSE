@@ -1,0 +1,12 @@
+<!--pages/news/news.wxml-->
+
+<view class="news" wx:for="{{newsList}}" wx:key="{{index}}">
+
+  <image class="news-img" src="{{item.imgsrc}}" bindtap="goToNews" data-newsid="{{item.postid}}" ></image>
+<view class="news-info">
+<view class="title" bindtap="goToNews"  data-newsid="{{item.postid}}">{{item.title}} </view>
+<view class="time">{{item.ptime}} </view>
+</view>
+
+</view>
+

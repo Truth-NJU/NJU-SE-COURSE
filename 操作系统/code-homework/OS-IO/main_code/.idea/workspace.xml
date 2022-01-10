@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
+    <generated />
+  </component>
+  <component name="CMakeSettings">
+    <configurations>
+      <configuration PROFILE_NAME="Debug" CONFIG_NAME="Debug" />
+    </configurations>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="9cd94852-6513-42f2-acbd-46871443de72" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ClangdSettings">
+    <option name="formatViaClangd" value="false" />
+  </component>
+  <component name="ProjectId" id="20ytIuJTbayGFm52Dsrmvuajybg" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="9cd94852-6513-42f2-acbd-46871443de72" name="Default Changelist" comment="" />
+      <created>1637028578937</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1637028578937</updated>
+      <workItem from="1637028581581" duration="865000" />
+      <workItem from="1637029743137" duration="89000" />
+      <workItem from="1637029848049" duration="11000" />
+      <workItem from="1637029861341" duration="43000" />
+      <workItem from="1637029916458" duration="23611000" />
+      <workItem from="1637126325887" duration="10825000" />
+      <workItem from="1637141526073" duration="862000" />
+      <workItem from="1637142709422" duration="149000" />
+      <workItem from="1637239898164" duration="17000" />
+      <workItem from="1637240006495" duration="460000" />
+      <workItem from="1637379700305" duration="112000" />
+      <workItem from="1637489757866" duration="450000" />
+      <workItem from="1637577661061" duration="2000" />
+      <workItem from="1637636562767" duration="140000" />
+      <workItem from="1637637795328" duration="166000" />
+      <workItem from="1637638163711" duration="9000" />
+      <workItem from="1637661043425" duration="24000" />
+      <workItem from="1637718368512" duration="687000" />
+      <workItem from="1637753435445" duration="97000" />
+      <workItem from="1637810737601" duration="3000" />
+      <workItem from="1637818460169" duration="11000" />
+      <workItem from="1638437462206" duration="61000" />
+      <workItem from="1638516194090" duration="1531000" />
+      <workItem from="1638598422604" duration="1592000" />
+      <workItem from="1638610959719" duration="668000" />
+      <workItem from="1638686844433" duration="1367000" />
+      <workItem from="1638777208134" duration="1392000" />
+      <workItem from="1638779299524" duration="501000" />
+      <workItem from="1638779976107" duration="276000" />
+      <workItem from="1638787372110" duration="1482000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="UnknownFeatures">
+    <option featureType="com.intellij.fileTypeFactory" implementationName="Makefile" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="439" y="231" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1637039649937">
+      <screen x="0" y="25" width="1440" height="807" />
+    </state>
+    <state x="439" y="231" key="#com.intellij.fileTypes.FileTypeChooser/0.25.1440.807@0.25.1440.807" timestamp="1637039649936" />
+    <state x="137" y="60" key="SettingsEditor" timestamp="1637029892464">
+      <screen x="0" y="25" width="1440" height="807" />
+    </state>
+    <state x="137" y="60" key="SettingsEditor/0.25.1440.807@0.25.1440.807" timestamp="1637029892464" />
+    <state x="565" y="255" key="com.intellij.ide.util.TipDialog" timestamp="1638787373656">
+      <screen x="0" y="25" width="1440" height="801" />
+    </state>
+    <state x="565" y="255" key="com.intellij.ide.util.TipDialog/0.25.1440.799@0.25.1440.799" timestamp="1637638164094" />
+    <state x="565" y="255" key="com.intellij.ide.util.TipDialog/0.25.1440.801@0.25.1440.801" timestamp="1638787373656" />
+    <state x="565" y="256" key="com.intellij.ide.util.TipDialog/0.25.1440.804@0.25.1440.804" timestamp="1637142715782" />
+    <state x="565" y="256" key="com.intellij.ide.util.TipDialog/0.25.1440.805@0.25.1440.805" timestamp="1638610959512" />
+    <state x="565" y="257" key="com.intellij.ide.util.TipDialog/0.25.1440.807@0.25.1440.807" timestamp="1637577661480" />
+    <state x="385" y="154" width="670" height="676" key="search.everywhere.popup" timestamp="1637031083623">
+      <screen x="0" y="25" width="1440" height="805" />
+    </state>
+    <state x="385" y="154" width="670" height="676" key="search.everywhere.popup/0.25.1440.805@0.25.1440.805" timestamp="1637031083623" />
+  </component>
+</project>

@@ -1,0 +1,38 @@
+<resources>
+    <string name="app_name">SimpleAlbum</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="forget_password">Forget password?</string>
+    <string name="sign_in">Sign In</string>
+    <string name="sign_in_google">Sign In With Google</string>
+    <string name="no_account">No account？</string>
+    <string name="sign_up">Sign up</string>
+    <string name="password_hint">Enter your password here</string>
+    <string name="eamil_hint">Enter your email here</string>
+    <string name="album">SimpleAlbum</string>
+    <string name="login_username">Name</string>
+    <string name="login_username_hint">Enter your name here</string>
+    <string name="login_userage">Age</string>
+    <string name="login_userage_hint">Enter your age here</string>
+    <string name="login_usergender">Gender</string>
+    <string name="login_gender_male">male</string>
+    <string name="login_gender_female">female</string>
+    <string name="login_useraddress">Address</string>
+    <string name="login_useraddress_hint">Enter your address here</string>
+    <string name="login_agree_licence">I agree with user licence</string>
+    <string name="login_cancel">CANCEL</string>
+    <string name="login_conform">COMFIRM</string>
+    <string name="previous">Previous Img</string>
+    <string name="next">Next Img</string>
+    <string name="signup_fail_not_agree">Sign Up Failed</string>
+    <string name="signup_fail_data_invalid">"Input Invalid Data "</string>
+    <string name="signup_success">Sign Up Success</string>
+    <string name="first_img">Already First Img</string>
+    <string name="last_img">Already Last Img</string>
+    <string name="sign_in_success">Sign In Success</string>
+    <string name="sign_in_fail">Sign In Fail</string>
+
+    <string name="forget_pass_no_user">User not sign up!</string>
+    <string name="forget_pass_name_not_match">User name not match!</string>
+    <string name="forget_pass_result">Your password is:</string>
+</resources>

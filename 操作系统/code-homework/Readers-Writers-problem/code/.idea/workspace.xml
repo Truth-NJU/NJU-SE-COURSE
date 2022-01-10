@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
+    <generated />
+  </component>
+  <component name="CMakeSettings">
+    <configurations>
+      <configuration PROFILE_NAME="Debug" CONFIG_NAME="Debug" />
+    </configurations>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="fb88f195-dba5-4712-ba38-61664454b84d" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ClangdSettings">
+    <option name="formatViaClangd" value="false" />
+  </component>
+  <component name="ProjectId" id="21Dm6hw57yd9l3DgBTP9XridUSa" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="fb88f195-dba5-4712-ba38-61664454b84d" name="Default Changelist" comment="" />
+      <created>1637483859133</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1637483859133</updated>
+      <workItem from="1637483862072" duration="518000" />
+      <workItem from="1637565907993" duration="1514000" />
+      <workItem from="1637645921567" duration="12927000" />
+      <workItem from="1637810743545" duration="1793000" />
+      <workItem from="1637816947332" duration="1494000" />
+      <workItem from="1637913614042" duration="5431000" />
+      <workItem from="1638438175496" duration="1850000" />
+      <workItem from="1638497102758" duration="9520000" />
+      <workItem from="1638517765958" duration="609000" />
+      <workItem from="1638595443017" duration="11380000" />
+      <workItem from="1638680310254" duration="5313000" />
+      <workItem from="1638757410515" duration="377000" />
+      <workItem from="1638758406136" duration="25000" />
+      <workItem from="1638779293456" duration="4000" />
+      <workItem from="1639035005316" duration="63000" />
+      <workItem from="1639101357679" duration="5713000" />
+      <workItem from="1639121315674" duration="603000" />
+      <workItem from="1639200292764" duration="6397000" />
+      <workItem from="1639225960620" duration="2205000" />
+      <workItem from="1639228632542" duration="128000" />
+      <workItem from="1639231825324" duration="284000" />
+      <workItem from="1639232406103" duration="12000" />
+      <workItem from="1639295466931" duration="21000" />
+      <workItem from="1639360682357" duration="2044000" />
+      <workItem from="1639364470517" duration="122000" />
+      <workItem from="1639533979818" duration="1615000" />
+      <workItem from="1639538172756" duration="1683000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="619" y="256" key="com.intellij.ide.util.TipDialog" timestamp="1639538172625">
+      <screen x="0" y="25" width="1440" height="801" />
+    </state>
+    <state x="619" y="255" key="com.intellij.ide.util.TipDialog/0.25.1440.799@0.25.1440.799" timestamp="1639231826877" />
+    <state x="619" y="256" key="com.intellij.ide.util.TipDialog/0.25.1440.801@0.25.1440.801" timestamp="1639538172625" />
+    <state x="619" y="257" key="com.intellij.ide.util.TipDialog/0.25.1440.807@0.25.1440.807" timestamp="1638779294632" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/kernel/kernel.asm</url>
+          <line>157</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

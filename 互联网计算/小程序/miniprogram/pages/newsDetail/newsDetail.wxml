@@ -1,0 +1,50 @@
+<!--pages/newsDetail/newsDetail.wxml-->
+<!-- <web-view src="{{newsUrl}}"></web-view> -->
+<movable-area class="move">
+  <view>
+  <image class="pic" src="{{newsDetail[0].img[0].src}}"></image>
+</view>
+<view>
+  <text class="title">{{newsDetail[0].title}}\n</text>
+  <text class="time">{{newsDetail[0].ptime}}</text>
+</view>
+
+
+  <movable-view x="{{x}}" y="{{y}}" direction="all"  class="star">
+
+  <van-icon  wx:if="{{like}}" name="star" bindtap="like" size="100rpx" color="#ffd21e"  />
+
+  <van-icon wx:if="{{!like}}"  name="star-o" size="100rpx" bindtap="like"  color="#ffd21e" info="收藏" />
+
+</movable-view>
+
+
+<movable-view x="{{x1}}" y="{{y1}}" direction="all" class="share">
+
+  <van-icon name="cloud://cloud1-3g6ruq8xa0466dd4.636c-cloud1-3g6ruq8xa0466dd4-1305751657/分享.png" info="分享" bind:click="onClick"  size="100rpx"/>
+</movable-view>
+
+<view>
+  <!-- <van-icon name="share-o" size="100rpx" bindtap="onShareAppMessage"/> -->
+  <!-- <button open-type="share">
+    <van-icon name="share-o" size="100rpx" />
+  </button> --> 
+<van-share-sheet
+  show="{{ showShare }}"
+  title="立即分享给好友"
+  options="{{ options }}"
+  bind:select="onSelect"
+  bind:close="onClose"
+/>
+</view>
+
+<van-divider dashed
+  contentPosition="center"
+  customStyle="color: #1989fa; border-color: #1989fa; font-size: 18px;"
+>
+  内容
+</van-divider>
+<view class="rich-text"><rich-text nodes="{{newsDetail[0].body}}"></rich-text>
+</view>
+</movable-area>
+
