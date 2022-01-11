@@ -1,0 +1,41 @@
+body{
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    background-color: black;
+}
+
+.i {
+    margin-bottom: 10px;
+    break-inside: avoid;
+}
+
+.content {
+    width: 80%;
+    margin: 10px auto;
+    padding: 20px 0;
+}
+
+
+
+.td1{
+    width: 250px;
+    text-align: right;
+    color: #FFFFFF;
+    background-color: cornflowerblue;
+}
+
+.font{
+    color: #FFFFFF;
+    background-color: cornflowerblue;
+}
+
+
+button{
+    color: #FFFFFF;
+    background-color: cornflowerblue;
+    width: 70px;
+    height: 30px;
+    border: 2px solid cornflowerblue;
+    border-radius:2px;
+}
+

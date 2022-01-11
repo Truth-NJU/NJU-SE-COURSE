@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Image2</title>
+    <link rel="stylesheet" href="./image2.css">
+    <link href="node_modules/cropperjs/dist/cropper.min.css" rel="stylesheet">
+    <script src="node_modules/cropperjs/dist/cropper.min.js"></script>
+
+</head>
+<body>
+<div class="i">
+    <img src="./images/2.jpg" id="image" alt=""/>
+</div>
+<button onclick="crop()" style="color: #FFFFFF">裁剪</button>
+<button onclick="cancelCrop()" style="color: #FFFFFF">取消</button>
+<button onclick="decide()" style="color: #FFFFFF">确认裁剪</button>
+<button onclick="rotate()" style="color: #FFFFFF">旋转</button>
+<!-- 裁剪后的图片展示-->
+<img src="" id="img" style="max-width: 60%;margin-top: 20px;">
+
+</body>
+<script>
+    const image = document.getElementById('image');
+    const cropper = new Cropper(image, {
+        // 不自动裁剪
+        autoCrop: false,
+        crop(event) {
+            console.log(event.detail.x);
+            console.log(event.detail.y);
+            console.log(event.detail.width);
+            console.log(event.detail.height);
+            console.log(event.detail.rotate);
+            console.log(event.detail.scaleX);
+            console.log(event.detail.scaleY);
+        },
+    });
+
+    // 设置手动裁剪
+    function crop() {
+        cropper.crop();
+    }
+
+    // 取消裁剪
+    function cancelCrop() {
+        cropper.clear();
+    }
+
+
+    // 展示裁剪后的图片
+    function decide() {
+        let img = cropper.getCroppedCanvas({
+            imageSmoothingQuality: 'high'
+        }).toDataURL('image/jpeg');
+        document.getElementById("img").src=img;
+        cropper.clear();
+    }
+
+    // 图片旋转
+    function rotate() {
+        cropper.rotate(90);
+    }
+
+</script>
+</html>

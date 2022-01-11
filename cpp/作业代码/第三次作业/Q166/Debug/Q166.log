@@ -1,0 +1,23 @@
+﻿C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets(391,5): warning MSB8028: 中间目录(Debug\)包含从另一个项目(Q166.vcxproj)共享的文件。   这会导致错误的清除和重新生成行为。
+  用于 x86 的 Microsoft (R) C/C++ 优化编译器 19.16.27045 版
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  
+  cl /c /ZI /JMC /W3 /WX- /diagnostics:classic /sdl /Od /Oy- /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /permissive- /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"Debug\vc141.pdb" /Gd /TP /analyze- /FC /errorReport:prompt Operation.cpp OperationAdd.cpp OperationDiv.cpp OperationMul.cpp OperationSub.cpp "源.cpp"
+  
+  Operation.cpp
+  OperationAdd.cpp
+  OperationDiv.cpp
+  OperationMul.cpp
+  OperationSub.cpp
+  源.cpp
+  正在生成代码...
+  Microsoft (R) Incremental Linker Version 14.16.27045.0
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  "/OUT:C:\Users\taozehua\source\repos\Q165\Debug\Q167.exe" /INCREMENTAL kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST "/MANIFESTUAC:level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG:FASTLINK "/PDB:C:\Users\taozehua\source\repos\Q165\Debug\Q167.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT "/IMPLIB:C:\Users\taozehua\source\repos\Q165\Debug\Q167.lib" /MACHINE:X86 Debug\Operation.obj 
+  Debug\OperationAdd.obj 
+  Debug\OperationDiv.obj 
+  Debug\OperationMul.obj 
+  Debug\OperationSub.obj 
+  "Debug\源.obj" 
+  Q166.vcxproj -> C:\Users\taozehua\source\repos\Q165\Debug\Q167.exe

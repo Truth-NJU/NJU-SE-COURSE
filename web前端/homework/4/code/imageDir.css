@@ -1,0 +1,28 @@
+body{
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    background-color: black;
+}
+
+.container {
+    width: 100%;
+    column-count: 4;
+    column-gap: 2em;
+    column-width: 250px;
+}
+
+
+.i {
+    margin-bottom: 10px;
+}
+
+img {
+    width: 100%;
+}
+
+.h{
+    text-align: center;
+    color: #FFFFFF;
+    text-shadow: 4px 4px #ff0000; /*阴影*/
+    font-style:italic; /*斜体*/
+}

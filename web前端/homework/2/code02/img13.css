@@ -1,0 +1,25 @@
+body{
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    /*background-color: black;*/
+}
+
+.i {
+    margin-bottom: 10px;
+    break-inside: avoid;
+}
+/*img {*/
+/*    width: 100%;*/
+/*}*/
+
+
+
+.watermark {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    pointer-events: none;
+    background-repeat: no-repeat;
+}

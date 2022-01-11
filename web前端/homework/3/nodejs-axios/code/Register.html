@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Register</title>
+    <link rel="stylesheet" href="./Register.css">
+    <script src="js/axios.min.js"></script>
+</head>
+<body>
+<div class="login">
+    <h1>Register</h1>
+    <div class="item">
+        <input type="text" name="username" value="" placeholder="用户名" id="username">
+    </div>
+    <div class="item">
+        <input type="text" name="password" value="" placeholder="密码" id="password"
+               onKeyUp="checkPassword(this.value)" onblur="checkPassword(this.value)">
+    </div>
+    <meter value="0" id="meter" style="width: 220px;"></meter>
+    <div class="font">
+        <button value="Register" class="register" onclick="register()">
+            注册
+        </button>
+    </div>
+</div>
+</body>
+<script type="text/javascript">
+    // 密码强度判断
+    function checkPassword(password) {
+        if (password.length === 0) {
+            document.getElementById("meter").value = 0;
+            return;
+        }
+        if (password.length <= 4) {
+            document.getElementById("meter").value = 0.25;
+            return;
+        }
+        // 判断密码包含的种类
+        var number = 0; // 0不包含数字，1包含数字
+        var capsCh = 0; // 0不包含大写字母，1包含大写字母
+        var ch = 0; // 0不包含小写字母，1包含小写字母
+        var special = 0; // 0不包含特殊字符，1包含特殊字符
+        for (i = 0; i < password.length; i++) {
+            if (password.charCodeAt(i) >= 48 && password.charCodeAt(i) <= 57) {
+                //数字
+                if (number === 0) number = 1;
+                else continue;
+            } else if (password.charCodeAt(i) >= 65 && password.charCodeAt(i) <= 90) {
+                //大写字母
+                if (capsCh === 0) capsCh = 1;
+                else continue;
+            } else if (password.charCodeAt(i) >= 97 && password.charCodeAt(i) <= 122) {
+                //小写字母
+                if (ch === 0) ch = 1;
+            } else {
+                if (special === 0) special = 1;
+            }
+        }
+        var types = number + capsCh + ch + special; // 密码包含几种类型的字符
+        // 按照种类数分别设置密码强度
+        switch (types) {
+            case 0:
+                document.getElementById("meter").value = 0;
+            case 1:
+                document.getElementById("meter").value = 0.25;
+                break;
+            case 2:
+                document.getElementById("meter").value = 0.5;
+                break;
+            case 3:
+                document.getElementById("meter").value = 0.75;
+                break;
+            default:
+                document.getElementById("meter").value = 1;
+        }
+    }
+
+
+    // 向数据库添加数据
+    function register() {
+        var username = document.getElementById("username").value;
+        var password = document.getElementById("password").value;
+        // 向后端发送请求
+        axios.get('http://127.0.0.1:8081/signUp', {
+            params: {
+                // 带上参数
+                username: username,
+                password: password
+            }
+        }).then((res) => {
+            // console.log(res);
+            // 注册成功跳转
+            if(res.data===1){
+                alert("用户名已经存在！");
+            }else {
+                window.location.href = "login.html";
+            }
+        });
+    }
+</script>
+</html>

@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Image13</title>
+    <link rel="stylesheet" href="./img13.css">
+</head>
+<body>
+<img src="./images/13.jpg" alt=""/>
+<div class="i">
+    <img src="./images/13.jpg" alt=""/>
+</div>
+
+<canvas id="canvas" width="1800" height="700"></canvas>
+<canvas id="canvas1" width="1800" height="700"></canvas>
+
+
+</body>
+<script>
+    // 可见水印
+    function createWaterMark() {
+        var img = new Image();
+        img.src='images/13.jpg';
+        const canvas = document.createElement('canvas');
+        // 获得图片的长和宽
+        canvas.width = img.width;
+        canvas.height = img.height;
+        // 指定在画布上绘制的类型
+        const ctx = canvas.getContext('2d');
+        // 字体颜色
+        ctx.fillStyle = '#fff';
+        // 透明度
+        ctx.globalAlpha = 1;
+        ctx.font = `50px Arial`;
+        // 将水印显示在画布的右下角
+        ctx.fillText('tzh\'s image', 1000,650);
+        return canvas.toDataURL();
+    }
+
+    const temp = document.createElement('div');
+    temp.className = 'watermark';
+    temp.style.backgroundImage = `url(${createWaterMark()})`;
+    document.body.appendChild(temp);
+
+
+    // 在待加密的图像上处理图像信息
+    var enData = function (ctx, newData, originalData) {
+        var data = originalData.data;
+        // 4个为一组，RGBA（A代表透明度）
+        for (var i = 0; i < data.length; i += 4) {
+            if (newData[i + 3] !== 0 && data[i] % 2 === 0) {
+                // 有文字信息，最低位为1
+                data[i]++;
+            } else if (newData[i + 3] === 0) {
+                // 没有文字信息
+                data[i] = 0;
+            }
+
+        }
+        console.log(originalData.data);
+        // 通过 putImageData() 将图像数据放回画布
+        ctx.putImageData(originalData, 0, 0);
+    };
+
+    // 解码
+    var deData = function (ctx, originalData) {
+        var data = originalData.data;
+        for (var i = 0; i < data.length; i += 4) {
+            if (data[i] % 2 !== 0) {
+                data[i] = 255;
+            } else {
+                data[i] === 0;
+            }
+            data[i + 1] = 0;
+            data[i + 2] = 0;
+        }
+        console.log(originalData.data);
+        // 将结果绘制到画布
+        ctx.putImageData(originalData, 0, 0);
+    };
+
+
+    var createInvisibleWaterMark = function (id) {
+        var ctx = document.getElementById(id).getContext('2d');
+        ctx.font = '30px Arial';
+        ctx.fillText('tzh\'s image', 500, 400);
+        return ctx;
+    };
+
+    // 编码
+    function encodeImg(src) {
+        var ctx=createInvisibleWaterMark('canvas1');
+        // 获得画布的信息
+        var datatoProcess = ctx.getImageData(0, 0, ctx.canvas.width, ctx.canvas.height).data;
+        var img = new Image();
+        img.src = src;
+        img.onload = function () {
+            // 获取指定区域的canvas像素信息
+            ctx.drawImage(img, 0, 0);
+            // 获得原始图片的信息
+            var originalData = ctx.getImageData(0, 0, ctx.canvas.width, ctx.canvas.height);
+            enData(ctx, datatoProcess, originalData)
+        };
+    }
+
+    // 解码
+    function decodeImg(src) {
+        var ctx=createInvisibleWaterMark('canvas');
+        var textData = ctx.getImageData(0, 0, ctx.canvas.width, ctx.canvas.height).data;
+        var img = new Image();
+        img.onload = function () {
+            // 获取指定区域的canvas像素信息
+            ctx.drawImage(img, 0, 0);
+            var originalData = ctx.getImageData(0, 0, ctx.canvas.width, ctx.canvas.height);
+            console.log(originalData.data);
+            enData(ctx, textData, originalData);
+            deData(ctx, originalData)
+        };
+        img.src = src;
+    }
+
+    encodeImg('images/13.jpg');
+    decodeImg('images/13.jpg');
+</script>
+</html>

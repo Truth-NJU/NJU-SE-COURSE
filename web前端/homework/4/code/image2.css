@@ -1,0 +1,39 @@
+body{
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    background-color: black;
+}
+
+
+.i {
+    margin-bottom: 10px;
+    break-inside: avoid;
+    height: 600px;
+}
+
+
+img {
+    display: block;
+    max-width:80%;
+
+}
+
+
+
+button{
+    color: #FFFFFF;
+    background-color: cornflowerblue;
+    width: 70px;
+    height: 30px;
+    border: 2px solid cornflowerblue;
+    border-radius:2px;
+}
+
+.c{
+    border: 1px solid black;
+    width: 200px;
+    height:400px;
+    overflow: hidden;
+    float: left;
+    margin-left: 5px;
+}
