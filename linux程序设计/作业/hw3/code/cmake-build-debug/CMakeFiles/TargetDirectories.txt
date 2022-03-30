@@ -1,0 +1,3 @@
+/Users/taozehua/Downloads/大三下/Linux程序设计/作业/hw3/code/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/Users/taozehua/Downloads/大三下/Linux程序设计/作业/hw3/code/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/taozehua/Downloads/大三下/Linux程序设计/作业/hw3/code/cmake-build-debug/CMakeFiles/code.dir
